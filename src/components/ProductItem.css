@@ -1,0 +1,10 @@
+.product{
+    height: 320px;
+    width: 250px;
+    font-family: monospace;
+    background-color: lavenderblush;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: cornflowerblue;
+    border-right-style: solid
+}
