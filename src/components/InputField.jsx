@@ -32,6 +32,7 @@ const InputField = ({showModal,setShowModal}) => {
                 &&
                 <button className='button' onClick={()=>dispatch(addProduct({product}))}>Confirm</button>}
             <button className='button' onClick={()=>setShowModal(!showModal)}>Cancel</button>
+
         </div>
     );
 };

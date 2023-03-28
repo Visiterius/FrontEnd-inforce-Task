@@ -24,7 +24,6 @@ const ProductList = () => {
                         <div key={el.id}>
                             <ProductItem el={el}/>
                         </div>)}
-
             </div>
         </div>
     );

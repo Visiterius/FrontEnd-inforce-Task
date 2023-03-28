@@ -21,7 +21,12 @@ const productSlice = createSlice({
         removeProduct(state,action){
             const itemID = action.payload.el.id
             state.products=state.products.filter(item=>item.id!==itemID)
-        }
+        },
+        // editProduct(state,action){
+        //     state.products[action.payload.index]={
+        //
+        //     }
+        // }
     }
 
 })
